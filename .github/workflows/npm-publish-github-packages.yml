@@ -90,7 +90,7 @@ jobs:
       - name: SonarQube Scan (api)
         uses: sonarsource/sonarqube-scan-action@master
         with:
-          projectBaseDir: api           # 👈 instead of working-directory
+          projectBaseDir: api           # 👈 instead  of working-directory
           args: >
             -Dsonar.projectKey=myorg_api
             -Dsonar.projectName=myorg_api
